@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鸣人·ALI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ6-TH-h6J">
+                        <rect key="frame" x="0.0" y="80" width="150" height="20"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.57999999999999996" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="RWM-Mj-pRk">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pZ6-TH-h6J" secondAttribute="bottom" id="5vx-cy-iPp"/>
+                <constraint firstItem="pZ6-TH-h6J" firstAttribute="top" secondItem="RWM-Mj-pRk" secondAttribute="bottom" id="KSZ-2E-OKW"/>
+                <constraint firstAttribute="bottom" secondItem="RWM-Mj-pRk" secondAttribute="bottom" constant="20" id="M7Q-av-4fn"/>
+                <constraint firstItem="pZ6-TH-h6J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PWO-Nr-o4e"/>
+                <constraint firstItem="RWM-Mj-pRk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SML-tJ-FHW"/>
+                <constraint firstAttribute="trailing" secondItem="pZ6-TH-h6J" secondAttribute="trailing" id="WcA-ZF-xbW"/>
+                <constraint firstAttribute="trailing" secondItem="RWM-Mj-pRk" secondAttribute="trailing" id="XTz-Y9-lnh"/>
+                <constraint firstItem="RWM-Mj-pRk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sZO-3y-Bbi"/>
+            </constraints>
+            <size key="customSize" width="149" height="75"/>
+            <point key="canvasLocation" x="541" y="268"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="293" height="220"/>
+    </resources>
+</document>
